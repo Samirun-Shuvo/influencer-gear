@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white
+}
+
+/* header start */
+
+header{
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+}
+nav{
+    margin-top: 60px;
+    margin-left: 10px;
+    color: rgb(14, 13, 13);
+    font-weight: 800px;
+}
+
+/* main container start */
+.top-container{
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.top-left-content{
+    margin: 10px;
+}
+.top-left-content h1 {
+    font-size: 40px;
+    color: #4b4e4b;
+}
+.top-left-content p {
+    font-size: 20px;
+    color: #4b4e4b;
+}
+.top-left-content button {
+    font-size: 14px;
+    color: white;
+    background-color: crimson;
+    padding: 10px;
+}
+.top-right-content{
+    margin: 10px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+.top-right-content img{
+   width: 70%;
+}
+
+/* popular-collection start */
+.popular-collection{
+    width: 80%;
+    margin: 10px auto;
+}
+.popular-collection h2{
+    text-align: center;
+    color: rgb(70, 60, 60);
+    font-size: 30px;
+}
+.collection-galary{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+}
+.popular-collection a{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    color: brown;
+    text-decoration: none;
+}
+.galary-box{
+    height: 500px;
+    width: 300px;
+    margin: 10px auto;
+}
+.galary-box img{
+    height: 300px;
+    width: 300px;
+}
+.galary-box h3{
+    font-size: 20px;
+    color: rgb(49, 17, 17);
+}
+.galary-box h4{
+    font-size: 16px;
+    color: rgb(49, 10, 10);
+    margin-bottom: 5px;
+}
+.galary-box span{
+    font-size: 14px;
+    color: rgb(109, 53, 53);
+}
+.galary-box p{
+    margin-top: 0px;
+    font-size: 14px;
+    color: rgb(160, 139, 139);
+}
+
+/* support containt start */
+.support-container{
+    height: 200px;
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgb(240, 246, 246);
+    text-align: center;
+}
+.support-container h2{
+    padding-top: 50px;
+}
+.support-container input{
+    width: 300px;
+    padding:10px
+}
+.support-container button{
+    margin-top: 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+/* footer start */
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(39, 10, 42);
+    text-align: center;
+}
+footer h2{
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+footer p{
+    color: rgb(231, 221, 221);
+    margin-top: 0px;
+}
+footer span{
+    color: wheat;
+}
