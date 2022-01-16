@@ -186,7 +186,7 @@ footer span i{
 }
 .top-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
  .top-left-content {
     width: 100%;
@@ -195,6 +195,7 @@ footer span i{
 
 .top-right-content {
     width: 100%;
+    margin-top: 50px;
 }
 
 .popular-collection {
